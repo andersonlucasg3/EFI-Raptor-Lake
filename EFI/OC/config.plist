@@ -427,24 +427,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BlueToolFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BlueToolFixup</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -470,6 +452,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -538,7 +538,7 @@
 			<key>DisableRtcChecksum</key>
 			<true/>
 			<key>ExtendBTFeatureFlags</key>
-			<false/>
+			<true/>
 			<key>ExternalDiskIcons</key>
 			<true/>
 			<key>ForceAquantiaEthernet</key>
@@ -824,7 +824,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZL1ZAP7QM</string>
 			<key>SystemUUID</key>
-			<string>2C42C854-35F1-40AF-A880-F53702934362</string>
+			<string>FE225D3E-C3E4-417B-9970-6B36235EB5FD</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -833,21 +833,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K943306GUFHDD1F</string>
+			<string>F5K934101QXK3F7JC</string>
 			<key>ProcessorType</key>
 			<integer>3842</integer>
 			<key>ROM</key>
-			<data>VdGFyaxV</data>
+			<data>XFlIVu4e</data>
 			<key>SpoofVendor</key>
-			<false/>
+			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Upgradable</string>
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZL1ZAP7QM</string>
+			<string>F5KZ8FYRP7QM</string>
 			<key>SystemUUID</key>
-			<string>2C42C854-35F1-40AF-A880-F53702934362</string>
+			<string>894AEACA-2ABA-4FC7-B1AC-4F4873A96E93</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -902,7 +902,7 @@
 			<key>SystemSerialNumber</key>
 			<string>F5KZL1ZAP7QM</string>
 			<key>SystemUUID</key>
-			<string>2C42C854-35F1-40AF-A880-F53702934362</string>
+			<string>FE225D3E-C3E4-417B-9970-6B36235EB5FD</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
