@@ -1,0 +1,588 @@
+{
+    "Motherboard": {
+        "Name": "ASUSTEK PRIME Z790-P WIFI",
+        "Chipset": "Z790",
+        "Platform": "Desktop"
+    },
+    "BIOS": {
+        "Version": "1645",
+        "Release Date": "2024-03-15",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "13th Gen Intel(R) Core(TM) i9-13900K",
+        "Codename": "Raptor Lake-S",
+        "Core Count": "24",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "NVIDIA GeForce RTX 3060": {
+            "Manufacturer": "NVIDIA",
+            "Codename": "Unknown",
+            "Device ID": "10DE-2504",
+            "Device Type": "Discrete GPU",
+            "Subsystem ID": "250410DE",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x4)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP21.PXSX",
+            "Resizable BAR": "Disabled"
+        },
+        "AMD Radeon RX 6600": {
+            "Manufacturer": "AMD",
+            "Codename": "Navi 23",
+            "Device ID": "1002-73FF",
+            "Device Type": "Discrete GPU",
+            "Subsystem ID": "05D51043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)",
+            "Resizable BAR": "Enabled"
+        }
+    },
+    "Monitor": {
+        "LG ULTRAWIDE": {
+            "Connector Type": "DP",
+            "Resolution": "3440x1440",
+            "Connected GPU": "AMD Radeon RX 6600"
+        }
+    },
+    "Network": {
+        "Realtek Gaming 2.5GbE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8125",
+            "Subsystem ID": "87D71043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP03.PXSX"
+        },
+        "Intel(R) Wi-Fi 6 AX201 160MHz": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A70",
+            "Subsystem ID": "00748086",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x3)",
+            "ACPI Path": "\\_SB.PC00.CNVW"
+        }
+    },
+    "Sound": {
+        "AMD High Definition Audio Device": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "1002-AA01",
+            "Subsystem ID": "00AA0100",
+            "Audio Endpoints": [
+                "5 - LG ULTRAWIDE"
+            ],
+            "Controller Device ID": "1002-AB28"
+        },
+        "NVIDIA High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10DE-009F",
+            "Subsystem ID": "10DE2504",
+            "Controller Device ID": "10DE-228E"
+        },
+        "Realtek(R) Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0897",
+            "Subsystem ID": "104387FB",
+            "Audio Endpoints": [
+                "Alto-falantes",
+                "Microfone",
+                "Realtek Digital Output"
+            ],
+            "Controller Device ID": "8086-7A50"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A60",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PC00.XHCI"
+        }
+    },
+    "Input": {
+        "Logi Bolt Receiver": {
+            "Bus Type": "USB",
+            "Device ID": "046D-C548"
+        },
+        "Dispositivo de Entrada USB": {
+            "Bus Type": "USB",
+            "Device ID": "093A-2530"
+        },
+        "Dispositivo de Entrada USB_#1": {
+            "Bus Type": "USB",
+            "Device ID": "0B05-19AF"
+        }
+    },
+    "Storage Controllers": {
+        "Raptor Lake SATA AHCI Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A62",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x17,0x0)",
+            "ACPI Path": "\\_SB.PC00.SAT0"
+        },
+        "KC3000/FURY Renegade NVMe SSD E18": {
+            "Bus Type": "PCI",
+            "Device ID": "2646-5013",
+            "Subsystem ID": "50132646",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x4)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP13.PXSX",
+            "Disk Drives": [
+                "KINGSTON SFYRS1000G"
+            ]
+        },
+        "KC3000/FURY Renegade NVMe SSD E18_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "2646-5013",
+            "Subsystem ID": "50132646",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1a,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP25.PXSX",
+            "Disk Drives": [
+                "KINGSTON SFYRS1000G"
+            ]
+        },
+        "Volume Management Device NVMe RAID Controller Intel Corporation": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A77F",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0xe,0x0)",
+            "ACPI Path": "\\_SB.PC00.VMD0"
+        }
+    },
+    "Bluetooth": {
+        "Intel(R) Wireless Bluetooth(R)": {
+            "Bus Type": "USB",
+            "Device ID": "8087-0026"
+        }
+    },
+    "System Devices": {
+        "Recursos da placa-m\u00e3e": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PC00.LPCB.SIO1"
+        },
+        "Recursos da placa-m\u00e3e_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PC00.PDRC"
+        },
+        "Recursos da placa-m\u00e3e_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PC00.LPCB.LDRC"
+        },
+        "Recursos da placa-m\u00e3e_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.URSC"
+        },
+        "Dispositivo do proxy do Hub de Recursos": {
+            "Bus Type": "ACPI",
+            "Device": "MSFT8000",
+            "ACPI Path": "\\_SB.PC00.I2C1.RHPX"
+        },
+        "Ventilador ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN0"
+        },
+        "Ventilador ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN1"
+        },
+        "Ventilador ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN2"
+        },
+        "Ventilador ACPI_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN3"
+        },
+        "Ventilador ACPI_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0B",
+            "ACPI Path": "\\_SB.FAN4"
+        },
+        "Intel(R) Serial IO I2C Host Controller - 7A4E": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A4E",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x2)",
+            "ACPI Path": "\\_SB.PC00.I2C2"
+        },
+        "Agregador do Processador ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000C",
+            "ACPI Path": "\\_SB.PAGD"
+        },
+        "AMD PCI Express Downstream Switch Port": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-1479",
+            "Subsystem ID": "14791002",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)"
+        },
+        "High Definition Audio Bus": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-AB28",
+            "Subsystem ID": "AB281002",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)"
+        },
+        "Gerenciador de Volumes": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Controlador de High Definition Audio": {
+            "Bus Type": "PCI",
+            "Device ID": "10DE-228E",
+            "Subsystem ID": "250410DE",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x4)/Pci(0x0,0x1)"
+        },
+        "Intel(R) PCI Express Root Port #3 - 7A3A": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A3A",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)",
+            "ACPI Path": "\\_SB.PC00.RP03"
+        },
+        "Provedor de Barramento de M\u00e1quina Virtual Microsoft Hyper-V": {
+            "Bus Type": "ROOT",
+            "Device": "VMBUS"
+        },
+        "PCI standard host CPU bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A700",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.MC__"
+        },
+        "Driver de V\u00eddeo B\u00e1sico da Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "Bot\u00e3o Suspens\u00e3o ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0E",
+            "ACPI Path": "\\_SB.SLPB"
+        },
+        "AMD Controller Emulation": {
+            "Bus Type": "ROOT",
+            "Device": "AMDXE"
+        },
+        "Servi\u00e7o de Hipervisor da Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "HVSERVICE"
+        },
+        "Zona T\u00e9rmica ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ00"
+        },
+        "Enumerador UMBus": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFDE"
+        },
+        "Driver de Infraestrutura de Virtualiza\u00e7\u00e3o Microsoft Hyper-V": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "Timer de eventos de alta precis\u00e3o": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PC00.LPCB.HPET"
+        },
+        "Recursos da placa-m\u00e3e_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.ICLK"
+        },
+        "JBL WAVE FLEX Hands-Free AG": {
+            "Bus Type": "BTHENUM"
+        },
+        "Timer do sistema": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PC00.LPCB.TIMR"
+        },
+        "Enumerador de Barramento de Composi\u00e7\u00e3o": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Enumerador de Unidade Virtual Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.RMTW"
+        },
+        "Intel(R) PCI Express Root Port #21 - 7A44": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A44",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x4)",
+            "ACPI Path": "\\_SB.PC00.RP21"
+        },
+        "Enumerador UMBus_#1": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
+        "S24 de Anderson Hands-Free HF": {
+            "Bus Type": "BTHENUM"
+        },
+        "Intel(R) Shared SRAM - 7A27": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A27",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x2)"
+        },
+        "Intel(R) PCI Express Root Port #9 - 7A30": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A30",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP09"
+        },
+        "Intel(R) Serial IO I2C Host Controller - 7A4D": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A4D",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x1)",
+            "ACPI Path": "\\_SB.PC00.I2C1"
+        },
+        "Enumerador de Barramento de Raiz UMBus": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Intel(R) PCI Express Root Port #1 - 7A38": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A38",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP01"
+        },
+        "Intel(R) Serial IO GPIO Host Controller - INTC1085": {
+            "Bus Type": "ACPI",
+            "Device": "INTC1085",
+            "ACPI Path": "\\_SB.GPI0"
+        },
+        "Controlador de High Definition Audio_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A50",
+            "Subsystem ID": "87FB1043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PC00.HDAS"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#2": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.ATKD"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.ATW0"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#4": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.AWW0"
+        },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#5": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.WFTE"
+        },
+        "Pci Bus": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PC00"
+        },
+        "Intel(R) SPI (flash) Controller - 7A24": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A24",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x5)"
+        },
+        "Servidor PCI do Microsoft Hyper-V": {
+            "Bus Type": "ROOT",
+            "Device": "VPCIVSP"
+        },
+        "desligar ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Driver de Renderiza\u00e7\u00e3o B\u00e1sico da Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Barramento da C\u00e2mera da \u00c1rea de Trabalho Remota": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
+        "Enumerador UMBus_#2": {
+            "Bus Type": "UMB",
+            "Device": "UMB"
+        },
+        "Sistema Microsoft Compat\u00edvel com UEFI": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "UEFI"
+        },
+        "iPhone de Anderson Hands-Free HF": {
+            "Bus Type": "BTHENUM"
+        },
+        "Bot\u00e3o de Recurso fixo ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Driver da Tecnologia de Monitoramento da Plataforma Intel(R)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A77D",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0xa,0x0)"
+        },
+        "Alarme de Ativa\u00e7\u00e3o ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "ACPI000E",
+            "ACPI Path": "\\_SB.AWAC"
+        },
+        "Recursos da placa-m\u00e3e_#5": {
+            "Bus Type": "ACPI",
+            "Device": "INTC109C",
+            "ACPI Path": "\\_SB.PC00.LPCB.CWDT"
+        },
+        "Intel(R) Management Engine Interface #1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A68",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)",
+            "ACPI Path": "\\_SB.PC00.HECI"
+        },
+        "Intel(R) LPC Controller/eSPI Controller - 7A04": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A04",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PC00.LPCB"
+        },
+        "Intel(R) Power Engine Plug-in": {
+            "Bus Type": "ACPI",
+            "Device": "INT33A1",
+            "ACPI Path": "\\_SB.PEPD"
+        },
+        "Servidor de Disco Virtual Microsoft Hyper-V": {
+            "Bus Type": "ROOT",
+            "Device": "STORVSP"
+        },
+        "AMD PCI Express Upstream Switch Port": {
+            "Bus Type": "PCI",
+            "Device ID": "1002-1478",
+            "Subsystem ID": "00000000",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PC00.PEG1.PEGP"
+        },
+        "Recursos da placa-m\u00e3e_#6": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.IOTR"
+        },
+        "Intel(R) PCIe RC 010 G5 - A70D": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-A70D",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)",
+            "ACPI Path": "\\_SB.PC00.PEG1"
+        },
+        "Remote Desktop USB Hub": {
+            "Bus Type": "TS_USB_HUB_ENUMERATOR",
+            "Device": "UMB"
+        },
+        "AMD Crash Defender": {
+            "Bus Type": "ROOT",
+            "Device": "AMDLOG"
+        },
+        "Intel(R) Serial IO I2C Host Controller - 7A4C": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A4C",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x15,0x0)",
+            "ACPI Path": "\\_SB.PC00.I2C0"
+        },
+        "Enumerador de Adaptador de Rede Virtual NDIS": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Intel(R) PCI Express Root Port #17 - 7A40": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A40",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP17"
+        },
+        "Intel(R) PCI Express Root Port #25 - 7A48": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A48",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1a,0x0)",
+            "ACPI Path": "\\_SB.PC00.RP25"
+        },
+        "Intel(R) SMBus - 7A23": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A23",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x4)",
+            "ACPI Path": "\\_SB.PC00.SBUS"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Recursos da placa-m\u00e3e_#7": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "Intel(R) PCI Express Root Port #13 - 7A34": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-7A34",
+            "Subsystem ID": "88821043",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x4)",
+            "ACPI Path": "\\_SB.PC00.RP13"
+        },
+        "Enumerador de Dispositivos de Software Plug and Play": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Logitech G HUB Virtual Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Nefarius Virtual Gamepad Emulation Bus": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Controlador de interrup\u00e7\u00e3o program\u00e1vel": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PC00.LPCB.IPIC"
+        },
+        "Barramento do Redirecionador de Dispositivos de \u00c1rea de Trabalho Remota": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
