@@ -877,9 +877,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYQ0KBP7QM</string>
+			<string>F5KZ8FYRP7QM</string>
 			<key>SystemUUID</key>
-			<string>F14BEDDA-AE15-422B-8807-F5AB05138382</string>
+			<string>894AEACA-2ABA-4FC7-B1AC-4F4873A96E93</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -888,21 +888,21 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K920609QXFHDDUE</string>
+			<string>C02707301J9JG36JA</string>
 			<key>ProcessorType</key>
 			<integer>3842</integer>
 			<key>ROM</key>
-			<data>MIu2XCme</data>
+			<data>VdGFyaxV</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
+			<string>Upgradable</string>
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYQ0KBP7QM</string>
+			<string>F5KZ8FYRP7QM</string>
 			<key>SystemUUID</key>
-			<string>F14BEDDA-AE15-422B-8807-F5AB05138382</string>
+			<string>894AEACA-2ABA-4FC7-B1AC-4F4873A96E93</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -955,9 +955,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYQ0KBP7QM</string>
+			<string>F5KZ8FYRP7QM</string>
 			<key>SystemUUID</key>
-			<string>F14BEDDA-AE15-422B-8807-F5AB05138382</string>
+			<string>894AEACA-2ABA-4FC7-B1AC-4F4873A96E93</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -970,7 +970,7 @@
 		<key>UpdateSMBIOSMode</key>
 		<string>Custom</string>
 		<key>UseRawUuidEncoding</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
