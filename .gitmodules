@@ -4,3 +4,6 @@
 [submodule "Tools/CPUFriendFriend"]
 	path = Tools/CPUFriendFriend
 	url = https://github.com/corpnewt/CPUFriendFriend.git
+[submodule "Tools/GenSMBIOS"]
+	path = Tools/GenSMBIOS
+	url = https://github.com/corpnewt/GenSMBIOS.git
