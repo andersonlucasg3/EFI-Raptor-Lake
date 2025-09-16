@@ -1,3 +1,6 @@
 [submodule "Tools/OpCore-Simplify"]
 	path = Tools/OpCore-Simplify
 	url = https://github.com/lzhoang2801/OpCore-Simplify
+[submodule "Tools/CPUFriendFriend"]
+	path = Tools/CPUFriendFriend
+	url = https://github.com/corpnewt/CPUFriendFriend.git
