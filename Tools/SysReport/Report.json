@@ -5,8 +5,8 @@
         "Platform": "Desktop"
     },
     "BIOS": {
-        "Version": "1645",
-        "Release Date": "2024-03-15",
+        "Version": "1821",
+        "Release Date": "2025-09-01",
         "System Type": "x64-based",
         "Firmware Type": "UEFI",
         "Secure Boot": "Disabled"
@@ -290,6 +290,11 @@
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.WFDE"
         },
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C14",
+            "ACPI Path": "\\_SB.ALCW"
+        },
         "Driver de Infraestrutura de Virtualiza\u00e7\u00e3o Microsoft Hyper-V": {
             "Bus Type": "ROOT",
             "Device": "VID"
@@ -320,7 +325,7 @@
             "Bus Type": "ROOT",
             "Device": "VDRVROOT"
         },
-        "Interface de Gerenciamento do Microsoft Windows para ACPI_#1": {
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#2": {
             "Bus Type": "ACPI",
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.RMTW"
@@ -382,22 +387,22 @@
             "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
             "ACPI Path": "\\_SB.PC00.HDAS"
         },
-        "Interface de Gerenciamento do Microsoft Windows para ACPI_#2": {
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#3": {
             "Bus Type": "ACPI",
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.ATKD"
         },
-        "Interface de Gerenciamento do Microsoft Windows para ACPI_#3": {
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#4": {
             "Bus Type": "ACPI",
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.ATW0"
         },
-        "Interface de Gerenciamento do Microsoft Windows para ACPI_#4": {
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#5": {
             "Bus Type": "ACPI",
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.AWW0"
         },
-        "Interface de Gerenciamento do Microsoft Windows para ACPI_#5": {
+        "Interface de Gerenciamento do Microsoft Windows para ACPI_#6": {
             "Bus Type": "ACPI",
             "Device": "PNP0C14",
             "ACPI Path": "\\_SB.WFTE"
@@ -567,11 +572,19 @@
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },
+        "ACSEVirtualBus Device": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
         "Logitech G HUB Virtual Bus Enumerator": {
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },
         "Nefarius Virtual Gamepad Emulation Bus": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "ACSEHIDRemap Device": {
             "Bus Type": "ROOT",
             "Device": "SYSTEM"
         },
